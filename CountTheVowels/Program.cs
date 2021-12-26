@@ -9,7 +9,7 @@ namespace CountTheVowels
             Console.WriteLine("Enter a Word: ");
             string englishWord = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Number of vowels: {0}",CountVowels.CountVowelsInWord(englishWord));
+            Console.WriteLine("Number of vowels: {0}", CountVowels.CountVowelsInWord(englishWord));
         }
     }
 }

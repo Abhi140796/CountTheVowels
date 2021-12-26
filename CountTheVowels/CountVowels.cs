@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace CountTheVowels
 {
+    /// <summary>
+    /// class CountVowels containst method to count vowels
+    /// </summary>
     class CountVowels
     {
+        /// <summary>
+        /// CountVowelsInWord count vowels in english word
+        /// </summary>
+        /// <param name="enterEnglishLetter">it takes user input as string</param>
+        /// <returns>number of vowels in string</returns>
         public static int CountVowelsInWord(string enterEnglishLetter)
         {
             string EnglishLetterLowerCase = enterEnglishLetter.ToLower();
